@@ -1,0 +1,9 @@
+# Fetch episode with ID 1
+query {
+  episode(id: 1) {
+    id
+    name
+    air_date
+    episode
+  }
+}
