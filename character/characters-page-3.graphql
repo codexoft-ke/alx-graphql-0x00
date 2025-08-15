@@ -1,0 +1,11 @@
+# List characters on page 3
+query {
+  characters(page: 3) {
+    results {
+      id
+      name
+      status
+      image
+    }
+  }
+}
